@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import CalculatorToggle from "./components/CalculatorToggle";
 import BMICalculator from "./components/BMICalculator";
-import TDEECalculator from "./components/TDEECalculator";
 
 const App = () => {
 	const [gender, setGender] = useState("male");
