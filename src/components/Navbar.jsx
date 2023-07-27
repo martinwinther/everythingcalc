@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 function Navbar({ setGender, setMeasurementSystem }) {
 	const [isMale, setIsMale] = useState(true);
 	const [isMetric, setIsMetric] = useState(true);

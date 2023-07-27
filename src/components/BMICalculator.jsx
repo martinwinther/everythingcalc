@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 function BMICalculator({ gender, measurementSystem }) {
 	const [height, setHeight] = useState(0);
 	const [weight, setWeight] = useState(0);

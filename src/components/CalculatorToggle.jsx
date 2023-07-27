@@ -1,5 +1,3 @@
-import React from "react";
-
 const CalculatorToggle = ({ name, isVisible, onToggle }) => {
 	return (
 		<button
