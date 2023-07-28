@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import CalculatorToggle from "./components/CalculatorToggle";
 import BMICalculator from "./components/BMICalculator";
 
-// TODO: Try context on navbar
+// TODO: Try context on navbar anda maybe headless components
 
 const App = () => {
 	const [gender, setGender] = useState("male");
