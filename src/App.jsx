@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import CalculatorToggle from "./components/CalculatorToggle";
 import BMICalculator from "./components/BMICalculator";
 
+// TODO: Try context on navbar
+
 const App = () => {
 	const [gender, setGender] = useState("male");
 	const [measurementSystem, setMeasurementSystem] = useState("metric");
